@@ -9,6 +9,7 @@ body {
 
 #footer {
     color: white;
+    clear: both;
 }
 
 .container {
@@ -63,15 +64,20 @@ body {
     padding-top: 15px;
 }
 
-#content #whatshot thead {
+#content #whatshot h2 {
     font-family: Arial, Verdana, sans-serif;
     font-weight: bold;
     font-size: 2em;
 }
 
-#content #whatshot .album {
+#content .album {
+    float: left;
     height: 250px;
     width: 250px;
     background-color: #fff;
-    border-spacing:
+    margin-right: 50px;
+}
+
+#content .info {
+    float: left;
 }
