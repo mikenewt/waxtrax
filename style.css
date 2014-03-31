@@ -40,6 +40,7 @@ body {
 }
 
 #feature {
+    display: inline-block;
     background-color: #ffffff;
     height: 450px;
 }
@@ -47,7 +48,7 @@ body {
 #feature #carousel {
     float: left;
     height: 100%;
-    width: 100%;
+    width: 70%;
     overflow: hidden;
 }
 
@@ -55,12 +56,14 @@ body {
     max-width: 100%;
 }
 
-#feature aside {
-    position: absolute;
+#feature #aside {
+    float: right;
     background-color: #fff;
     width: 30%;
-    height: 70%;
+    height: 100%;
+    right: 0px;
     border: 1px solid black;
+    box-sizing: border-box;
     
 }
 
