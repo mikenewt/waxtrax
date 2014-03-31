@@ -40,30 +40,42 @@ body {
 }
 
 #feature {
+    display: inline-block;
     background-color: #ffffff;
     height: 450px;
 }
 
 #feature #carousel {
     float: left;
+    height: 100%;
+    width: 70%;
+    overflow: hidden;
 }
 
-#feature aside {
+#feature #carousel img {
+    max-width: 100%;
+}
+
+#feature #aside {
     float: right;
+    background-color: #fff;
     width: 30%;
-    height: 70%;
+    height: 100%;
+    right: 0px;
     border: 1px solid black;
-    margin-right: 15px;
+    box-sizing: border-box;
+    
 }
 
 #content {
     float: clear;
     text-align: center;
     background-color: red;
+    padding: 15px 15px 15px 15px;
 }
 
 #content #whatshot {
-    padding-top: 15px;
+    text-align: left;
 }
 
 #content #whatshot h2 {
@@ -72,17 +84,37 @@ body {
     font-size: 2em;
 }
 
+#content #albums {
+    width: 100%;
+    text-align: center;
+}
+
 #content .album {
-    margin: auto;
     display: inline-block;
+    height: 300px;
+    margin: 0px 20px;
+}
+
+#content .album .artwork {
     height: 250px;
     width: 250px;
     background-color: #fff;
-    margin-right: 30px;
-    margin-left: 30px;
 }
 
-#content .info {
-    display: block;
+#content .album .info {
     text-align: left;
+    width: 250px;
 }
+
+#content .album .info ul {
+    list-style: none;
+    padding-left: 0;
+    padding-bottom: 10px;
+}
+
+#content .album .info ul li {
+    font-family: Arial;
+}
+
+#content .album .info ul li:nth-child(2) {
+    font-size: small;
