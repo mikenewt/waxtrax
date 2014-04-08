@@ -24,7 +24,6 @@ p, h2, h3, span {
 
 a {
     text-decoration: none;
-    color: blue;
 }
 
 a:hover {
@@ -165,8 +164,4 @@ a:visited {
 
 #content .album .info ul li:nth-child(2) {
     font-size: small;
-
-
-.cta a {
-    color: white;
 }
